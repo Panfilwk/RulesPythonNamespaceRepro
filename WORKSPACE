@@ -17,3 +17,7 @@ pip_parse(
     name = "requirements_parse",
     requirements_lock = "//:requirements.txt"
 )
+
+load("@requirements_parse//:requirements.bzl", "install_deps")
+
+install_deps()
