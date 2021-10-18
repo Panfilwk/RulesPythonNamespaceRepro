@@ -1,0 +1,9 @@
+# BAZEL #
+#########
+bazel-bin
+bazel-RulesPythonNamespaceRepro
+bazel-genfiles
+bazel-out
+bazel-src
+bazel-testlogs
+.bazel
